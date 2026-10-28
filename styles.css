@@ -1,0 +1,41 @@
+html {
+
+}
+.header {
+background-image: url(/images/image.png);
+background-position: 0;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+justify-content: center;
+border: 40px;
+
+} 
+
+.logo {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: 200px;
+    mix-blend-mode: multiply;
+    
+}
+.navigation ul{
+    display: flex;
+    padding-right: 20px;
+    justify-content: center;
+    list-style: none;
+    font-family: Papyrus; 
+
+}
+.navigation ul li a {
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding-right: 80px;
+    padding-left: 80px;
+    
+
+
+}
