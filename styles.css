@@ -26,16 +26,22 @@ border: 40px;
     justify-content: center;
     list-style: none;
     font-family: Papyrus; 
-
+    font-size: 25px;
 }
 .navigation ul li a {
     padding-bottom: 20px;
     text-decoration: none;
     color: white;
-    font-size: 25px;
     padding-right: 80px;
     padding-left: 80px;
-    
-
-
 }
+
+p {
+    font-size: 25px;
+}
+h1 {
+    font-size: 50px;
+    font-family: Papyrus;
+    font-weight: lighter;
+}
+
