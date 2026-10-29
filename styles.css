@@ -27,6 +27,7 @@ border: 40px;
     list-style: none;
     font-family: Papyrus; 
     font-size: 25px;
+    padding-bottom: 10px;
 }
 .navigation ul li a {
     padding-bottom: 20px;
@@ -34,6 +35,7 @@ border: 40px;
     color: white;
     padding-right: 80px;
     padding-left: 80px;
+    padding-bottom: 20px;
 }
 
 p {
@@ -50,22 +52,83 @@ h1 {
     font-family: Goudy Old Style;
     font-weight: lighter;
     line-height: 40px;
+    margin-top: 35px;
 }
  
 .Hero {
-    line-height: 70px;
+    line-height: 90px;
 }
 
 .button {
    background-color: #cb9d66;
-   padding: 12px;
+   padding: 16px;
    font-family: Papyrus;
    color: white;
    border-radius: 50px;
    text-decoration: none;
+   font-size: 30px;
+   margin: 40px;
+   margin-top: 20px;
 }
 .container {
     display: flex;
     flex-direction: row;
 }
 
+.about {
+    font-weight: lighter;
+    font-family: Goudy Old Style; 
+    line-height: 60px;
+}
+.cards {
+    background-color:#cb9d66;
+    padding: 10%;
+    display: grid;
+    grid-template-columns: max-content;
+    font-family: Papyrus;
+    color: white;
+    
+}
+.Special {
+    background-color: #9b774f;
+    padding: 40px;
+    justify-content: center;
+    border: 2px solid black;
+    
+}
+.Raffle {
+    background-color: #9b774f;
+    padding: 40px;
+    justify-content: center;
+    border: 2px solid black;
+    margin: 10px;
+} 
+.Room {
+    background-color: #9b774f;
+    padding: 40px;
+    justify-content: center;
+    border: 2px solid black;
+    margin: 10px;
+} 
+.Swag {
+    background-color: #9b774f;
+    padding: 40px;
+    justify-content: center;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.hiring {
+    text-align: center;
+    font-weight: lighter;
+}
+
+.buttons{
+    margin: 40px;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #cb9d66;
+    color: white;
+}
