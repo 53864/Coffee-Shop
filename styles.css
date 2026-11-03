@@ -32,7 +32,7 @@ flex-direction: column;
     justify-content: center;
     list-style: none;
     font-family: Papyrus; 
-    font-size: 25px;
+    font-size: 40px;
 }
 .navigation ul li a {
     text-decoration: none;
@@ -44,6 +44,8 @@ flex-direction: column;
 
 p {
     font-size: 35px;
+    font-weight: lighter;
+    font-family: Goundy Old Style;
     font-weight: lighter;
     }
 h1 {
@@ -71,6 +73,7 @@ h1 {
    margin: 60px;
 }
 .container {
+    padding-left: 30px;
     display: flex;
     flex-direction: row;
 }
@@ -79,18 +82,23 @@ h1 {
     font-weight: lighter;
     font-family: Goudy Old Style; 
     line-height: 60px;
+    padding-left: 30px;
+}
+
+.promotion-section {
+     background-color:#cb9d66;
+     padding: 5%;
 }
 .cards {
+    border: 1px solid white;
+    padding: 5%;
     font-family: Papyrus;
     font-size: 40px;
-    background-color:#cb9d66;
-    padding: 5%;
     gap: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    
 }
 .card {
     background-color: #9b774f;
@@ -136,7 +144,8 @@ h1 {
 }
 .footer {
     text-align: center;
-    padding: 20px;
+    padding: 40px;
     background-color: #cb9d66;
     color: white;
+    font-size: 20px;
 }
